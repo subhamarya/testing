@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+</head>
+<body style="background-color:black; ">
+<h3 style="color: white;">Do While Loop Program</h3>
+<br>
+<br>
+<code style="color:lightblue;">
+<pre>
+  import java.util.Scanner;
+
+class Sum {
+   public static void main(String[] args) {
+     
+      Double number, sum = 0.0;
+      Scanner input = new Scanner(System.in);
+
+      do {
+       System.out.print("Enter a number: ");
+       number = input.nextDouble();
+       sum += number;
+      } while (number != 0.0);
+     
+      System.out.println("Sum = " + sum);
+   }
+}
+</pre>
+</code>
+</body>
+</html>

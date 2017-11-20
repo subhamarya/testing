@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+</head>
+<body style="background-color:black; ">
+<h3 style="color: white;">Create Directory Program</h3>
+<br>
+<br>
+<code style="color:lightblue;">
+<pre>
+import java.io.*;
+
+
+public class DirectoryDemo
+{
+  
+public static void main(String[] args)
+{
+System.out.println("Creating Directory in Java");
+   
+//you can provide a relative path
+    
+//so here the directory newDir will be created 
+    
+//where the sample is
+    
+String dirname = "newDir";
+    
+File dir = new File(dirname);
+    
+// you can create directory using mkdirs method of File
+    
+//object.
+    
+dir.mkdirs();
+    
+    
+System.out.println("New directory created !!!");
+  
+}
+
+}
+
+</pre>
+</code>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+</head>
+<body style="background-color:black; ">
+<div style="background-color:grey;color: white;padding: 8px;">
+   <h2><center>Variable Scope </center></h2>
+</div>
+<br>
+<pre>
+<h4 style="color: white;">Local Variable:</h4>
+<h4 style="color: lightblue;">
+1. A variable that is declared inside method is local variable.
+2.Access Modifiers cannot be used with them.
+3.No default values.
+</h4>
+<h4 style="color: white;">Instance Variable:</h4>
+<h4 style="color: lightblue;">
+1. A variable that is declared inside the class but outside the 
+method is instance variable.
+2.Not declared as static.
+3. They are created with the use of new keyword.
+4.Access Modifiers can be given.
+5.They have default values.
+</h4>
+<h4 style="color: white;">Class/Static Variable:</h4>
+<h4 style="color: lightblue;">
+1.A variable that is declared as static is static variable.
+2.It cannot be local.
+3.They have static keyword.
+4.Stored in static memory.
+
+
+Example:  
+class A{
+int data=50;//instance variable
+static int m=100;//static variable
+void method(){
+int n=90;//local variable
+}
+}</h4>
+</pre>
+</body>
+</html>
